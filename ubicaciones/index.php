@@ -42,19 +42,19 @@
         </div>
         <div class="row">
           <div id="ubi1">
-            <h2 class="fondobuscar">Lista de salones por país.</h2> <!-- <i class="budicon-search-3"></i>-->
+            <h2 class="fondobuscar">Estamos en...</h2> <!-- <i class="budicon-search-3"></i>-->
             <div class="col-md-12 lista-salon">
               <div class="col-md-6">
-                  <h3><a href="#modal-ubi" data-toggle="modal"><i class="budicon-pin"></i> Venezuela</a></h3>
-                  <h3><a href="#"><i class="budicon-pin"></i> Panamá</a></h3>
-                  <h3><a href="#"><i class="budicon-pin"></i> Republica Dominicana</a></h3>
+                  <h3><i class="budicon-pin"></i> Venezuela</h3>
+                  <h3><i class="budicon-pin"></i> Panamá</h3>
+                  <h3><i class="budicon-pin"></i> Republica Dominicana</h3>
               </div>
               <!--/column -->
 
               <div class="col-md-6">
-                  <h3><a href="#"><i class="budicon-pin"></i> Ecuador</a></h3>
-                  <h3><a href="#"><i class="budicon-pin"></i> Curazao</a></h3>
-                  <h3><a href="#"><i class="budicon-pin"></i> Estados Unidos</a></h3>
+                  <h3><i class="budicon-pin"></i> Ecuador</h3>
+                  <h3><i class="budicon-pin"></i> Curazao</h3>
+                  <h3><i class="budicon-pin"></i> Estados Unidos</h3>
               </div>
               <!--/column -->
             </div>

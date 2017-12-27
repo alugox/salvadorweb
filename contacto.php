@@ -45,7 +45,7 @@
             <figure><a href="#"><img src="/c/img/ads/contact2.jpg" alt="" /> </a></figure>
             <div class="caption bottom-right">
               <div class="title">
-                <h3 class="main-title layer">¡23 tonos especialmente para tí!</h3>
+                <h3 class="main-title layer">¡25 tonos especialmente para tí!</h3>
               </div>
               <!--/.title --> 
             </div>
