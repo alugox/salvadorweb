@@ -36,12 +36,12 @@
       </ul>
     </nav>
     <div class="social-wrapper">
-      <ul class="social naked">
+     <!-- <ul class="social naked">
         
         <li><a href="http://www.salvadorhairdressing.com/boutique" target="_blank"><img src="#" srcset="/c/img/logos/logo-bout-2a.png" class="logo-light" alt="" /></a></li>
 
 
-      </ul>
+      </ul>-->
     </div>
   </div></div>
   <!-- /.navbar -->

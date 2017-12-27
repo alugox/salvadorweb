@@ -31,7 +31,7 @@
 
   <section id="instituto" class="light-wrapper">
     <div class="container inner">
-      <div class="text-center"><img src="/c/img/logos/instituto-logo.png"></div>
+      <div class="text-center"><a href="/modelos/instituto.php"><img src="/c/img/logos/instituto-logo.png"></a></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -49,7 +49,7 @@
           <!--/.cbp-item -->
           
           <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/inst/2.jpg">
-            <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/inst/2b.jpg" alt="" /> </div>
+            <div class="cbp-caption-defaultWrap"><img src="/c/img/mdn/inst/2b.jpg" alt="" /></div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
                 <div class="cbp-l-caption-body">
@@ -126,7 +126,7 @@
 
   <section id="express" class="light-wrapper">
     <div class="container inner">
-      <div class="text-center"><img src="/c/img/logos/express-logo.png"></div>
+      <div class="text-center"><a href="/modelos/express.php"><img src="/c/img/logos/express-logo.png"></a></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -192,7 +192,7 @@
 
   <section id="uomo" class="light-wrapper">
     <div class="container inner">
-      <div class="text-center"><img src="/c/img/logos/uomologo.png"></div>
+      <div class="text-center"><a href="/modelos/uomo.php"><img src="/c/img/logos/uomologo.png"></a></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -269,7 +269,7 @@
 
   <section id="kids" class="light-wrapper">
     <div class="container inner">
-      <div class="text-center"><img src="/c/img/logos/kids-logo.png"></div>
+      <div class="text-center"><a href="/modelos/kids.php"><img src="/c/img/logos/kids-logo.png"></a></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -335,7 +335,7 @@
 
   <section id="nailsbar" class="light-wrapper">
     <div class="container inner">
-      <div class="text-center"><img src="/c/img/logos/nails-logo.png"></div>
+      <div class="text-center"><a href="/modelos/nailsbar.php"><img src="/c/img/logos/nails-logo.png"></a></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -412,7 +412,7 @@
 
   <section id="beautystore" class="light-wrapper">
     <div class="container inner">
-      <div class="text-center"><img src="/c/img/logos/beauty-logo.png"></div>
+      <div class="text-center"><a href="/modelos/beautystore.php"><img src="/c/img/logos/beauty-logo.png"></a></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">

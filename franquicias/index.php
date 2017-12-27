@@ -59,13 +59,8 @@
     <div class="container inner">
       <div class="divide10"></div>
 
-           <?php include "formulario.php"; ?>
-    </div>
-    <!-- /.container --> 
-  </div>
-  <!-- /.light-wrapper -->
-
-   <?php include '../c/footer.php'; ?>
+           <?php include "franquicias.php"; ?>
+    
 
 </body>
 </html>
