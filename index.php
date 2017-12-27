@@ -284,27 +284,6 @@
   </div>
 
 
-  <div class="light-wrapper">
-    <div class="container">
-      <div class="row text-center">
-
-        <div class="thin" style="padding-top: 5%;">
-          <h3 class="section-title text-center">Síguenos</span></h3>
-        </div>
-
-        <div class="iconos-principal">
-            <a target="_blank" href="https://es-la.facebook.com/SalvadorWorld/"><i class="size-iconp fab fa-facebook-f"></i></a>
-            <a target="_blank" href="https://www.instagram.com/mundosalvador"><i class="size-iconp fab fa-instagram"></i></a>
-            <a target="_blank" href="https://twitter.com/mundosalvador"><i class="size-iconp fab fa-twitter"></i></a>
-            <a target="_blank" href="https://www.pinterest.com/mundosalvador/"><i class="size-iconp fab fa-pinterest-p"></i></a>
-            <a target="_blank" href="https://www.youtube.com/user/salvadorpeluqueria"><i class="size-iconp fab fa-youtube" style="padding-right: 0;"></i></a>
-        </div>
-
-      </div> 
-    </div>
-  </div>
-
-
     <?php include 'c/footer.php'; ?>
 </body>
 </html>

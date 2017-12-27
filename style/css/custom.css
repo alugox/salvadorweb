@@ -496,6 +496,16 @@ div.desc{
     #del-foto{
       display: none;
     }
+    #onmob-line{
+      display: grid;
+    }
+    .link-footer{
+      padding-right: auto;
+      padding-bottom: 3%;
+    }
+    .iconos-principal{
+      padding-bottom: 12%;
+    }
 }
 
 @media (max-width: 760px) {
@@ -505,4 +515,18 @@ div.desc{
     .logo-concepto2 {
       top: -10px!important;
     }
+}
+
+@media (max-width: 767px){
+.onmob-pad {
+    margin-bottom: 0;
+    }
+}
+
+.link-footer{
+  padding-right: 4%;
+}
+.padding-50{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
