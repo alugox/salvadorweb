@@ -39,7 +39,7 @@ function armarUbicacionesDetalle($data, $paso){
         <br><b>Teléfonos:</b> '.$re["TELEFONO1"].'/ '.$re["TELEFONO1"].'
       </p>
       <div class="divide25"></div>
-      <div class="row">
+      <div class="row text-center">
           <h3>Síguenos en:</h3>
           <a href="//www.instagram.com/'.$re["INSTAGRAM"].'" target="_blank"><i class="fab fa-instagram" style="font-size:1.5em;"></i> '.$re["INSTAGRAM"].'</a>
       </div>';
@@ -52,8 +52,11 @@ function armarUbicacionesMapa($data, $paso){
   $resu = (array) json_decode(miBusquedaSQL($sql), true);
   $element = "";
   foreach ($resu as $re) {
-              $element = '<img src="https://maps.googleapis.com/maps/api/staticmap?center='.$re["latitud"].','.$re["longitud"].'&zoom=15&size=600x300&maptype=roadmap
-                &markers=color:red%7Clabel:S%7C'.$re["latitud"].','.$re["longitud"].'&key=AIzaSyBBTYoweUiZnxwTuuS1qH34U5oQ12ztbIU">';
+    if($re["latitud"] == ""){
+      $element = "Ubicación no disponible.";
+    } else{
+      $element = '<img src="https://maps.googleapis.com/maps/api/staticmap?center='.$re["latitud"].','.$re["longitud"].'&zoom=15&size=600x300&maptype=roadmap&markers=color:red%7Clabel:S%7C'.$re["latitud"].','.$re["longitud"].'&key=AIzaSyBBTYoweUiZnxwTuuS1qH34U5oQ12ztbIU">';
+    }
   }
   return $element;
 
@@ -97,7 +100,7 @@ function conceptosbar($ubi){
   if($ubi == "mod"){
     $texto = "Modelos de Negocio";
   } else {
-    $texto = "Nuestros Conceptos";
+    $texto = "Nuestros Modelos de Negocio";
   }
 	echo '<div class="blog-posts grid-view grid-concepto">
             <h2 class="post-title text-center texttipo2">'.$texto.'</h2>

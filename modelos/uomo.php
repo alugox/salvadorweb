@@ -110,74 +110,16 @@
       <span id="contentslideubi"></span>
 
       <div class="divide25"></div>
-      <div class="row">
+      <div class="row text-center">
           <h3>Google Map</h3>
-          <div id="map" style="height: 360px;"></div>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdEVYy8IZdBKJGQp_QpDWaNQT7ZHGhY&amp;sensor=false&amp;extension=.js"></script> 
-          <script> google.maps.event.addDomListener(window, 'load', init);
-            var map;
-            function init() {
-                var mapOptions = {
-                    center: new google.maps.LatLng(51.211215, 3.226287),
-                    zoom: 15,
-                    zoomControl: true,
-                    zoomControlOptions: {
-                        style: google.maps.ZoomControlStyle.DEFAULT,
-                    },
-                    disableDoubleClickZoom: false,
-                    mapTypeControl: true,
-                    mapTypeControlOptions: {
-                        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-                    },
-                    scaleControl: true,
-                    scrollwheel: false,
-                    streetViewControl: true,
-                    draggable : true,
-                    overviewMapControl: false,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP,
-                styles: [{stylers:[{saturation:-100},{gamma:1}]},{elementType:"labels.text.stroke",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"geometry",stylers:[{visibility:"simplified"}]},{featureType:"water",stylers:[{visibility:"on"},{saturation:50},{gamma:0},{hue:"#50a5d1"}]},{featureType:"administrative.neighborhood",elementType:"labels.text.fill",stylers:[{color:"#333333"}]},{featureType:"road.local",elementType:"labels.text",stylers:[{weight:0.5},{color:"#333333"}]},{featureType:"transit.station",elementType:"labels.icon",stylers:[{gamma:1},{saturation:50}]}]
-                }
-
-                var mapElement = document.getElementById('map');
-                var map = new google.maps.Map(mapElement, mapOptions);
-                var locations = [
-                    ['Boudewijn Ostenstraat 2', 51.211215, 3.226287]
-                ];
-                for (i = 0; i < locations.length; i++) {
-                    marker = new google.maps.Marker({
-                        icon: 'style/images/map-pin.png',
-                        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                        map: map
-                    });
-                }
-            }
-            </script> 
-        </div>
-        <!--/column --> 
-      <!-- Instagram feed 
-        <div class="container inner">
-          <div class="row">
-            <div class="col-sm-4 col-md-3">
-              <h2>Instagram Feed</h2>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo.</p>
-              <div class="divide10"></div>
-              <a href="https://instagram.com/urbanshots/" class="btn btn-icon"><i class="icon-s-instagram"></i> Instagram Page</a> </div>
-            <div class="col-sm-8 col-md-9">
-              <div class="image-grid col5">
-                <div class="items-wrapper">
-                  <div id="instafeed" class="isotope items" data-limit="5"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>--> 
-        <!--/.container -->
+          <div id="map" style="height: 360px;">
+            <span id="mapslideubi"></span>
+          </div>          
+      </div>
     </div>
-    <!-- .inner --> 
   </div>
 </div>
 
-<!-- slide-portfolio-item-content --> 
 <a href="#0" class="slide-portfolio-item-content-close"><i class="budicon-cancel-1"></i></a> <!-- close slide portfolio content --> 
 
 <?php include '../c/footer.php'; ?>

@@ -114,31 +114,10 @@
             <span id="mapslideubi"></span>
           </div>          
       </div>
-        <!--/column --> 
-      <!-- Instagram feed 
-        <div class="container inner">
-          <div class="row">
-            <div class="col-sm-4 col-md-3">
-              <h2>Instagram Feed</h2>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo.</p>
-              <div class="divide10"></div>
-              <a href="https://instagram.com/urbanshots/" class="btn btn-icon"><i class="icon-s-instagram"></i> Instagram Page</a> </div>
-            <div class="col-sm-8 col-md-9">
-              <div class="image-grid col5">
-                <div class="items-wrapper">
-                  <div id="instafeed" class="isotope items" data-limit="5"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>-->
     </div>
   </div>
-  <!-- slide-portfolio-item-detail --> 
 </div>
-<!-- slide-portfolio-item-content -->
 
-<!-- slide-portfolio-item-content --> 
 <a href="#0" class="slide-portfolio-item-content-close"><i class="budicon-cancel-1"></i></a> <!-- close slide portfolio content -->     
 
 <?php include '../c/footer.php'; ?>
