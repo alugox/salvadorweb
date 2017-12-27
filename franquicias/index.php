@@ -59,8 +59,16 @@
     <div class="container inner">
       <div class="divide10"></div>
 
-           <?php include "franquicias.php"; ?>
-    
+           <?php //include "franquicias.php"; ?>
+            </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.light-wrapper -->
+
+   <?php include '../c/footer.php'; ?>
+
+
+
 
 </body>
 </html>
