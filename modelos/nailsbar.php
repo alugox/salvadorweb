@@ -26,7 +26,7 @@
       <div class="item caption-overlay">
         <div class="caption bottom-left">
           <div class="layer box">
-            <div class="category cat9 logo-concepto"><span><a href="#"><img src="/c/img/logos/nails-logo.png"></a></span></div>
+            <div class="category cat9 logo-concepto"><span><a id="foto-concepto" href="#"><img src="/c/img/logos/nails-logo.png"></a></span></div>
             <h4 class="post-title text-right"><!--label class="title-concepto">Un concepto exclusivo para caballeros.</label!-->
               <a class="sec-title" href="#concepto"><i class="budicon-shop icon-main"></i>Concepto</a>
               <a class="sec-title" href="#ubicaciones"><i class="budicon-location-1 icon-main"></i>Ubicaciones</a>
@@ -43,7 +43,7 @@
   </div>
   <!--/.parallax --> 
   
-  <div class="light-wrapper" id="concepto" style="background-image: url(/c/img/textback-nailsbar.jpg); background-repeat: no-repeat; height: 550px;">
+  <div class="light-wrapper" id="concepto" style="background-image: url(/c/img/textback-nailsbar.jpg); background-repeat: no-repeat;">
     <div class="container inner">
       <div class="row">
         <!--/column -->

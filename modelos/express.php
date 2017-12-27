@@ -28,7 +28,7 @@
       <div class="item caption-overlay">
         <div class="caption bottom-left">
           <div class="layer box">
-            <div class="category cat9 logo-concepto"><span><a href="#"><img src="/c/img/logos/express-logo.png"></a></span></div>
+            <div class="category cat9 logo-concepto"><span><a id="foto-concepto" href="#"><img src="/c/img/logos/express-logo.png"></a></span></div>
             <h4 class="post-title text-right"><!--label class="title-concepto">Un concepto exclusivo para caballeros.</label!-->
               <a class="sec-title" href="#concepto"><i class="budicon-shop icon-main"></i>Concepto</a>
               <a class="sec-title" href="#ubicaciones"><i class="budicon-location-1 icon-main"></i>Ubicaciones</a>
@@ -44,18 +44,23 @@
   </div>
   </div>
   <!--/.parallax --> 
-  
-  <div class="light-wrapper" id="concepto" style="background-image: url(/c/img/mdn/exp/main2.jpg);">
+
+
+  <div class="light-wrapper" id="concepto" style="background-image: url(/c/img/mdn/exp/main2.jpg); background-repeat: no-repeat;">
     <div class="container inner">
       <div class="row">
         <!--/column -->
-        <div class="col-sm-7 col-md-offset-5">
-          <h3 class="section-title" style="color:#fff;">EXPRESS</h3>
-          <p class="par-concepto" style="color:#fff;">Este concepto innovador nace en el 2004 con la finalidad de ofrecer a toda la familia un servicio caracterizado por su dinamismo y eficiencia, manteniendo la calidad y profesionalismo que caracteriza al Grupo Salvador.<br><br>En los Centros Express se ofrecen servicios capilares, cortes, secados, depilaciones faciales, coloración, arreglo de manos y pies. Además con un horario adaptado a tus necesidades desde las 6:30 am y hasta las 8:00pm… Porque queremos simplificar tu Vida.</p>
+        <div class="col-md-offset-5">
+          <div class="text-center"><img src="../c/img/logos/express-logo.png"></div><br>
+          <p class="par-concepto text-white">Este concepto innovador nace en el 2004 con la finalidad de ofrecer a toda la familia un servicio caracterizado por su dinamismo y eficiencia, manteniendo la calidad y profesionalismo que caracteriza al Grupo Salvador.<br><br>En los Centros Express se ofrecen servicios capilares, cortes, secados, depilaciones faciales, coloración, arreglo de manos y pies. Además con un horario adaptado a tus necesidades desde las 6:30 am y hasta las 8:00pm… Porque queremos simplificar tu Vida.</p><br>
         </div>
+        <!--/column -->
       </div>
+      <!--/.row -->
     </div>
+    <!--/.container --> 
   </div>
+  <!-- /.light-wrapper -->
 
   <div class="dark-wrapper" id="ubicaciones">
     <div class="container inner2">

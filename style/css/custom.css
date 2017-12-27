@@ -15,7 +15,7 @@
     height: 100%;
     display: block;
 }
-.logo-concepto{
+.logo-concepto, .logo-concepto2{
 	top: -100px!important;
 }
 .blackback{
@@ -458,4 +458,51 @@ div.desc{
     font-size: 18px;
     color: #fc0606;
     font-weight: bold;
+}
+@media (max-width: 991px){
+    #concepto{
+      background-image: none!important;
+    }
+    .text-white{
+      color: #000;
+    }
+}
+@media (max-width: 490px){
+    .sec-title {
+      display: block;
+      padding-bottom: 15px;
+    }
+    .logo-concepto{
+      display: none;
+    }
+}
+
+@media (min-width: 490px) and (max-width: 720px) {
+    #foto-concepto {
+      max-width: 60%;
+    }
+    .logo-concepto{
+      top: -10px!important;
+    }
+}
+
+@media (min-width: 490px) and (max-width: 860px) {
+    .size-onmob{
+      font-size: 12px;
+    }
+}
+
+@media (max-width: 640px) {
+    #del-foto{
+      display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    #del-foto{
+      max-width: 60%;
+    }
+    .logo-concepto2 {
+      top: -10px!important;
+    }
 }

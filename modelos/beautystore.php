@@ -24,8 +24,8 @@
       <div class="item caption-overlay">
         <div class="caption bottom-left">
           <div class="layer box">
-            <div class="category cat9 logo-concepto"><span><a href="#"><img src="/c/img/logos/beauty-logo.png"></a></span></div>
-            <h4 class="post-title text-right"><!--label class="title-concepto">Un concepto exclusivo para caballeros.</label!-->
+            <div class="category cat9 logo-concepto2"><span><a id="del-foto" href="#"><img src="/c/img/logos/beauty-logo.png"></a></span></div>
+            <h4 class="post-title text-right size-onmob"><!--label class="title-concepto">Un concepto exclusivo para caballeros.</label!-->
               <a class="sec-title" href="#concepto"><i class="budicon-shop icon-main"></i>Concepto</a>
               <a class="sec-title" href="#ubicaciones"><i class="budicon-location-1 icon-main"></i>Ubicaciones</a>
               <a class="sec-title" href="//www.salvadorstore.com" target="_blank"><i class="budicon-network icon-main"></i>Visitar Tienda Online</a>
@@ -42,12 +42,12 @@
   </div>
   <!--/.parallax --> 
   
-  <div class="light-wrapper" id="concepto" style="background-image: url(/c/img/mdn/store/main2.jpg);">
+  <div class="light-wrapper" id="concepto" style="background-image: url(/c/img/mdn/store/main2.jpg); background-repeat: no-repeat;">
     <div class="container inner">
       <div class="row">
         <!--/column -->
-        <div class="col-sm-7 col-md-offset-5">
-          <h3 class="section-title">Salvador Beauty Store</h3>
+        <div class="col-md-offset-5">
+          <div class="text-center"><img src="../c/img/logos/beauty-logo.png"></div><br>
           <p class="par-concepto" style="color: #000;">Somos una tienda de Belleza Integral, dedicados a la mujer, ofreciendo (productor profesionales para el cuidado y mantenimiento del cabello, manicure y pedicure, cosméticos, y artículos de cuidado personal avalados por reconocidas marcas.<br><br>Los profesionales del estilismo encuentran los artículos más novedosos del mercado, tintes para el cabello, accesorios, maquillajes, cepillos, tratamientos capilares, unidosis para todo tipo de cabello, además del asesoramiento de expertos en belleza.</p>
         </div>
       </div>
