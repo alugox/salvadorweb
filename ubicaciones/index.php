@@ -8,6 +8,7 @@
 <title>Ubicaciones - Salvador Hairdressing</title>
 
     <?php include '../c/header.php'; ?>
+<link href="/c/css/ubicaciones.css" rel="stylesheet">
 
 </head>
 <body>
@@ -21,20 +22,36 @@
   <div class="light-wrapper">
     <div class="container inner">
       <div class="row col-md-8">
-        <div class="title-ubicacion">
+        <div class="title-ubicacion text-center">
           <h1>Ubica un Salón Salvador</h1>
         </div>
 
         <div class="col-md-12 paises-section">
-          <!--<div class="buscar-salon">
+          <div class="buscar-salon">
             <h2 class="fondobuscar">Encuentra un salón.</h2>
               <div class="widget">
               <form class="searchform searchbarp" method="get">
-                <input class="buscadorsl" type="text" id="s2" name="s" value="Buscar un salón Salvador" onfocus="this.value=''" onblur="this.value='Buscar un salón Salvador'">
+                <input class="buscadorsl" type="text" id="autocomplete" name="s" placeholder="Buscar un salón Salvador">
                 <button type="submit" class="botonbuscador btn btn-default" style="height: 60px!important; padding-left: 30px!important; padding-right: 30px!important;">Buscar</button>
+                <div id="selection">
+                  <br><div id="slide-portfolio" class="image-grid">
+                    <div class="items-wrapper">
+                      <ul class="isotope items">
+                        <li class="item col-md-6 col-sm-6 marginbt10">
+                          <figure class="icon-overlay"><img src="/c/img/salons/13.jpg" alt="" /></figure>
+                          <div class="slide-portfolio-item-info box">
+                            <h4 class="post-title">NOMBRE DE SALON</h4>
+                            <div class="meta marginbt0">REGION</div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <input type="hidden" name="salonbuscar">
               </form>
             </div>
-          </div>-->
+          </div>
           <div id="ubi1">
             <h2 class="fondobuscar">Lista de salones por país. <i class="budicon-search-3"></i></h2>
             <div class="col-md-12 lista-salon">
@@ -42,11 +59,11 @@
                   <h3><a href="#modal-ubi" data-toggle="modal"><i class="budicon-pin"></i> Venezuela</a></h3>
                   <h3><a href="#"><i class="budicon-pin"></i> Panamá</a></h3>
                   <h3><a href="#"><i class="budicon-pin"></i> Republica Dominicana</a></h3>
-                  <h3><a href="#"><i class="budicon-pin"></i> Ecuador</a></h3>
               </div>
               <!--/column -->
 
               <div class="col-md-6">
+                  <h3><a href="#"><i class="budicon-pin"></i> Ecuador</a></h3>
                   <h3><a href="#"><i class="budicon-pin"></i> Curazao</a></h3>
                   <h3><a href="#"><i class="budicon-pin"></i> Estados Unidos</a></h3>
               </div>
@@ -110,8 +127,8 @@
               <a target="_blank" href="/fsmag.php">
                 <span class="text-center">
                   <h2 class="no-margin pubinfo">
-                    <span class="subtitle-pub">fs magazine</span>
-                    <br>Edición 36
+                    <span class="subtitle-pub" style="text-transform: none;">fs Magazine</span>
+                    <br>Edición 37
                   </h2>
                 </span>
               </a>
@@ -136,15 +153,11 @@
           </div>
         </div>
       </div>
-      <!-- /Publicidad -->
-
     </div>
   </div>
 
 
-
-
-   <?php include '../c/footer.php'; ?>
+  <?php include '../c/footer.php'; ?>
 
 </body>
   <div id="modal-ubi" class="modal fade" role="dialog">

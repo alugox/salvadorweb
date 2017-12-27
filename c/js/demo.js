@@ -1,4 +1,4 @@
-﻿/*jslint  browser: true, white: true, plusplus: true */
+/*jslint  browser: true, white: true, plusplus: true */
 /*global $, countries */
 
 $(function () {
@@ -91,4 +91,6 @@ $(function () {
 
 function mostrarSalonDet($idsalon){
     $('#selection').html('Id de Salón: ' + $idsalon);
+
+    
 }
