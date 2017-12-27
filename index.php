@@ -76,8 +76,8 @@
               </div>
             </div>
 
-            <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/main/b3-full.jpg" data-title-id="title-3">
-                  <div class="cbp-caption-defaultWrap"> <img src="c/img/main/b3.jpg" alt="" /> </div>
+            <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/main/b3-full2.jpg" data-title-id="title-3">
+                  <div class="cbp-caption-defaultWrap"> <img src="c/img/main/b32.jpg" alt="" /> </div>
                   <div class="cbp-caption-activeWrap">
                     <div class="cbp-l-caption-alignCenter">
                       <div class="cbp-l-caption-body">
@@ -87,8 +87,8 @@
                   </div>
                   </a> 
                 <div id="title-3" class="hidden">
-                <h3>¡Síguenos en Instagram!</h3>
-                <p>Está siempre al tanto de todas nuestras novedades, promociones y más, en nuestras redes sociales. Encuentrános en Instagram como:</p><p><a href="//www.instagram.com/mundosalvador" target="_blank">@mundosalvador</a></p>
+                <h3>¡Sé un cliente VIP!</h3>
+                <p>Solicita tu ClientCard en tu salón preferido para que te conviertas en un cliente VIP. Acumula puntos que puedes cambiar por descuentos en los servicios.</p><h3 class="text-right"><a href="http://salvadorhairdressing.com/cc/" target="_blank">¡Conoce más aquí!</a></h3>
               </div>
             </div>
           </div>

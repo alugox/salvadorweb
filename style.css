@@ -366,7 +366,7 @@ h2.post-title + .meta {
     position: relative;
 }
 .sub-footer {
-    background: #212124;
+    background: #000;
 }
 .sub-footer p {
     margin: 0;
@@ -677,7 +677,7 @@ footer ul.circled li:before {
     left: 0;
     margin: 0;
     height: 70px;
-    background: transparent;  
+    background: #000;  
     transition: all 0.3s;
     font-family: 'Montserrat', sans-serif;
 }
@@ -836,7 +836,7 @@ footer ul.circled li:before {
 /*	04. STICKY NAVBAR
 /*-----------------------------------------------------------------------------------*/
 .navbar.fixed {
-    background: rgba(29,29,33,0.8) !important;
+    background: #000 !important;
     height: 70px;
 }
 .navbar.solid {
@@ -4051,7 +4051,7 @@ textarea {
 	.navbar {
 		display: table;  
 		padding: 0 40px;
-        background: rgba(29,29,33,1) !important;
+        background: #000 !important;
 	}
 	.navbar-header {
 	    display: table-cell !important;
@@ -4183,7 +4183,7 @@ textarea {
 	    display: none
 	}
 	body:not(.onepage) .navbar {
-	    background: rgba(29,29,33,0.9) !important;
+	    background: #000 !important;
 	}
 	body:not(.onepage) .navbar.light {
 	    background: #FFF !important;
