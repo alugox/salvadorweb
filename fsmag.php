@@ -44,10 +44,10 @@
 
         <div class="col-md-7">
           <div class="item post">
-              <figure class="main sinmargen" style="height: 450px;"><iframe style="width:100%; height:450px;" src="//e.issuu.com/embed.html#3474702/52529485" frameborder="0" allowfullscreen></iframe></figure>
+              <figure class="main sinmargen" style="height: 450px;"><iframe style="width:100%; height:450px;" src="//e.issuu.com/embed.html#3474702/56697535" frameborder="0" allowfullscreen></iframe></figure>
               <div class="box text-center">
-                <div class="category cat16"><span class="sinpadding"><a href="//fsinter.com/ediciones/actual.php" target="_blank">Edición 36</a></span></div>
-                <p><div class="meta">Revista fs magazine. Edición 36.</div></p>
+                <div class="category cat16"><span class="sinpadding"><a href="//fsinter.com/ediciones/actual.php" target="_blank">Edición 37</a></span></div>
+                <p><div class="meta">Revista fs magazine. Edición 37.</div></p>
               </div>
           </div>
         </div>

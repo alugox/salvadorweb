@@ -1,6 +1,28 @@
+  
+  <div class="light-wrapper">
+    <div class="container">
+      <div class="row text-center">
+
+        <div class="thin text-center" style="padding-top: 5%;">
+          <h3 class="section-title">Síguenos</h3>
+          <div style="border-bottom: 2px solid; width: 80px; margin-left: auto; margin-right: auto;"></div>
+        </div>
+
+        <div class="iconos-principal">
+            <a target="_blank" href="https://es-la.facebook.com/SalvadorWorld/"><i class="size-iconp fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/mundosalvador"><i class="size-iconp fab fa-instagram"></i></a>
+            <a target="_blank" href="https://twitter.com/mundosalvador"><i class="size-iconp fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.pinterest.com/mundosalvador/"><i class="size-iconp fab fa-pinterest-p"></i></a>
+            <a target="_blank" href="https://www.youtube.com/user/salvadorpeluqueria"><i class="size-iconp fab fa-youtube" style="padding-right: 0;"></i></a>
+        </div>
+
+      </div> 
+    </div>
+  </div>
+
   <!-- /.light-wrapper -->
   <footer class="footer inverse-wrapper" id="footer">
-    <div class="inner">
+    <div class="padding-50">
       <div class="row">
         <div class="col-sm-12">
         <div class="col-sm-4 col-sm-offset-4">
@@ -13,19 +35,19 @@
           </div>
         </div>
         </div>
-        <div class="col-sm-12">
-          <div class="widget">
-            <ul class="post-list">
-              <li>
-                <div class="meta text-center">
-                  <h5><a href="/nosotros.php">NOSOTROS</a> / <a href="/servicios.php">SERVICIOS</a> / <a href="/modelos/">MODELOS DE NEGOCIO</a> / <a href="/franquicias">FRANQUICIAS</a> / <a href="/ubicaciones">UBICACIONES</a> / <a href="/contacto.php">CONTACTO</a></h5>
+        <div class="col-sm-12 onmob-pad">
+            <div class="widget">
+                <div class="text-center">
+                  <h5 id="onmob-line">
+                    <a class="link-footer" href="/nosotros.php">NOSOTROS</a>
+                    <a class="link-footer" href="/servicios.php">SERVICIOS</a>
+                    <a class="link-footer" href="/modelos/">MODELOS DE NEGOCIO</a>
+                    <a class="link-footer" href="/franquicias">FRANQUICIAS</a>
+                    <a class="link-footer" href="/ubicaciones">UBICACIONES</a>
+                    <a class="link-footer" href="/contacto.php">CONTACTO</a>
+                  </h5>
                 </div>
-                <div class="meta text-center">
-                  <br><h5><a href="http://www.facebook.com/SalvadorWorld" target="_blank"><i class="icon-s-facebook"></i></a> / <a href="http://www.instagram.com/mundosalvador" target="_blank"><i class="icon-s-instagram"></i></a> / <a href="https://twitter.com/mundosalvador"><i class="icon-s-twitter"></i></a> / <a href="https://www.youtube.com/user/salvadorpeluqueria"><i class="icon-s-youtube"></i></a></h5>
-                </div>
-              </li>
-            </ul>
-          </div>
+            </div>
         </div>       
       </div>
       <!-- /.row --> 
