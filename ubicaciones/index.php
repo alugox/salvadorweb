@@ -64,12 +64,12 @@
           <div class="col-sm-12">
           <h3>Google Map</h3>
           <div id="map" style="height: 360px;"></div>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdEVYy8IZdBKJGQp_QpDWaNQT7ZHGhY&amp;sensor=false&amp;extension=.js"></script> 
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2IJ4em1U2JXd2FS3nXS_PTv1Jre9UmJ8&amp;sensor=false&amp;extension=.js"></script> 
           <script> google.maps.event.addDomListener(window, 'load', init);
           var map;
           function init() {
               var mapOptions = {
-                  center: new google.maps.LatLng(51.211215, 3.226287),
+                  center: new google.maps.LatLng(10.644708, -71.617942),
                   zoom: 15,
                   zoomControl: true,
                   zoomControlOptions: {
@@ -92,11 +92,11 @@
               var mapElement = document.getElementById('map');
               var map = new google.maps.Map(mapElement, mapOptions);
               var locations = [
-                  ['Boudewijn Ostenstraat 2', 51.211215, 3.226287]
+                  ['Boudewijn Ostenstraat 2', 10.644708, -71.617942]
               ];
               for (i = 0; i < locations.length; i++) {
                   marker = new google.maps.Marker({
-                      icon: 'style/images/map-pin.png',
+                      icon: '/style/images/map-pin.png',
                       position: new google.maps.LatLng(locations[i][1], locations[i][2]),
                       map: map
                   });

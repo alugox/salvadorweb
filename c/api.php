@@ -12,6 +12,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 				echo armarUbicacionesDetalle($data, $paso);
 				break;
+            case 'loadtwo':
+
+                $data = $_POST['data'];
+                $paso = $_POST['paso'];
+
+                echo armarUbicacionesMapa($data, $paso);
+                break;
             case 'showSD':
                 $data = $_POST['data'];
                 $paso = $_POST['paso'];

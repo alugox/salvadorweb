@@ -37,9 +37,26 @@ function armarUbicacionesDetalle($data, $paso){
       <p class="text-center"><br>
         <b>Dirección:</b> '.$re["DIRECCION"].'</b>
         <br><b>Teléfonos:</b> '.$re["TELEFONO1"].'/ '.$re["TELEFONO1"].'
-      </p>';
+      </p>
+      <div class="divide25"></div>
+      <div class="row">
+          <h3>Síguenos en:</h3>
+          <a href="//www.instagram.com/'.$re["INSTAGRAM"].'" target="_blank"><i class="fab fa-instagram" style="font-size:1.5em;"></i> '.$re["INSTAGRAM"].'</a>
+      </div>';
 	}
 	return $element;
+}
+
+function armarUbicacionesMapa($data, $paso){
+  $sql = "SELECT latitud, longitud FROM web_salones WHERE ID = '".$data."' LIMIT 1;";
+  $resu = (array) json_decode(miBusquedaSQL($sql), true);
+  $element = "";
+  foreach ($resu as $re) {
+              $element = '<img src="https://maps.googleapis.com/maps/api/staticmap?center='.$re["latitud"].','.$re["longitud"].'&zoom=15&size=600x300&maptype=roadmap
+                &markers=color:red%7Clabel:S%7C'.$re["latitud"].','.$re["longitud"].'&key=AIzaSyBBTYoweUiZnxwTuuS1qH34U5oQ12ztbIU">';
+  }
+  return $element;
+
 }
 
 function cambiarRegion($entrada){
