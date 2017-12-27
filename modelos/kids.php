@@ -104,49 +104,12 @@
       <span id="contentslideubi"></span>
 
       <div class="divide25"></div>
-      <div class="row">
+      <div class="row text-center">
           <h3>Google Map</h3>
-          <div id="map" style="height: 360px;"></div>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdEVYy8IZdBKJGQp_QpDWaNQT7ZHGhY&amp;sensor=false&amp;extension=.js"></script> 
-          <script> google.maps.event.addDomListener(window, 'load', init);
-            var map;
-            function init() {
-                var mapOptions = {
-                    center: new google.maps.LatLng(51.211215, 3.226287),
-                    zoom: 15,
-                    zoomControl: true,
-                    zoomControlOptions: {
-                        style: google.maps.ZoomControlStyle.DEFAULT,
-                    },
-                    disableDoubleClickZoom: false,
-                    mapTypeControl: true,
-                    mapTypeControlOptions: {
-                        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-                    },
-                    scaleControl: true,
-                    scrollwheel: false,
-                    streetViewControl: true,
-                    draggable : true,
-                    overviewMapControl: false,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP,
-                styles: [{stylers:[{saturation:-100},{gamma:1}]},{elementType:"labels.text.stroke",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"geometry",stylers:[{visibility:"simplified"}]},{featureType:"water",stylers:[{visibility:"on"},{saturation:50},{gamma:0},{hue:"#50a5d1"}]},{featureType:"administrative.neighborhood",elementType:"labels.text.fill",stylers:[{color:"#333333"}]},{featureType:"road.local",elementType:"labels.text",stylers:[{weight:0.5},{color:"#333333"}]},{featureType:"transit.station",elementType:"labels.icon",stylers:[{gamma:1},{saturation:50}]}]
-                }
-
-                var mapElement = document.getElementById('map');
-                var map = new google.maps.Map(mapElement, mapOptions);
-                var locations = [
-                    ['Boudewijn Ostenstraat 2', 51.211215, 3.226287]
-                ];
-                for (i = 0; i < locations.length; i++) {
-                    marker = new google.maps.Marker({
-                        icon: 'style/images/map-pin.png',
-                        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                        map: map
-                    });
-                }
-            }
-            </script> 
-        </div>
+          <div id="map" style="height: 360px;">
+            <span id="mapslideubi"></span>
+          </div>          
+      </div>
     </div>
   </div>
 </div>
