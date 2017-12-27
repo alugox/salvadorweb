@@ -50,7 +50,7 @@
       <div class="row">
         <!--/column -->
         <div class="col-md-offset-5">
-          <div class="text-center"><img src="../c/img/logos/uomologo.png"></div><br>
+          <div class="text-center"><img src="/c/img/logos/uomologo.png"></div><br>
           <p class="par-concepto text-black">Es una propuesta vanguardista de espacios exclusivos dedicados al cuidado estético del hombre y de su imagen personal. Ofrece un ambiente diseñado para atender las exigencias del hombre moderno. Salvador UOMO, brinda un trato personalizado donde la puntualidad y la eficiencia hacen la diferencia.</p><br>
           <div class="small-quote">
             <blockquote class="text-black">

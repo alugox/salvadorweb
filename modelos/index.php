@@ -31,7 +31,7 @@
 
   <section id="instituto" class="light-wrapper">
     <div class="container inner">
-      <h3 class="section-title text-center">Instituto de Belleza</h3>
+      <div class="text-center"><img src="/c/img/logos/instituto-logo.png"></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -126,7 +126,7 @@
 
   <section id="express" class="light-wrapper">
     <div class="container inner">
-      <h3 class="section-title text-center">Express</h3>
+      <div class="text-center"><img src="/c/img/logos/express-logo.png"></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -192,7 +192,7 @@
 
   <section id="uomo" class="light-wrapper">
     <div class="container inner">
-      <h3 class="section-title text-center">UOMO</h3>
+      <div class="text-center"><img src="/c/img/logos/uomologo.png"></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -269,7 +269,7 @@
 
   <section id="kids" class="light-wrapper">
     <div class="container inner">
-      <h3 class="section-title text-center">Kids</h3>
+      <div class="text-center"><img src="/c/img/logos/kids-logo.png"></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -284,7 +284,7 @@
             </div>
             </a> </div>
           
-          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/inst/2.jpg">
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/kids/2.jpg">
             <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/kids/2b.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -295,7 +295,7 @@
             </div>
             </a> </div>
           
-          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/inst/3.jpg">
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/kids/3.jpg">
             <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/kids/3b.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -306,7 +306,7 @@
             </div>
             </a> </div>
           
-          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/inst/4.jpg">
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/kids/4.jpg">
             <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/kids/4b.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -317,7 +317,7 @@
             </div>
             </a> </div>
           
-          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/inst/5.jpg">
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/kids/5.jpg">
             <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/kids/5b.jpg" alt="" /> </div>
             <div class="cbp-caption-activeWrap">
               <div class="cbp-l-caption-alignCenter">
@@ -335,7 +335,7 @@
 
   <section id="nailsbar" class="light-wrapper">
     <div class="container inner">
-      <h3 class="section-title text-center">Nailsbar</h3>
+      <div class="text-center"><img src="/c/img/logos/nails-logo.png"></div>
       <div class="divide20"></div>
       <div class="cbp-panel">
         <div class="cbp cbp-onepage-grid">
@@ -404,6 +404,73 @@
               </div>
             </div>
             </a> </div>          
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="beautystore" class="light-wrapper">
+    <div class="container inner">
+      <div class="text-center"><img src="/c/img/logos/beauty-logo.png"></div>
+      <div class="divide20"></div>
+      <div class="cbp-panel">
+        <div class="cbp cbp-onepage-grid">
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/store/1.jpg">
+            <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/store/1b.jpg" alt="" /> </div>
+            <div class="cbp-caption-activeWrap">
+              <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+                </div>
+              </div>
+            </div>
+            </a> </div>
+          
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/store/2.jpg">
+            <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/store/2b.jpg" alt="" /> </div>
+            <div class="cbp-caption-activeWrap">
+              <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+                </div>
+              </div>
+            </div>
+            </a> </div>
+          
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/store/3.jpg">
+            <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/store/3b.jpg" alt="" /> </div>
+            <div class="cbp-caption-activeWrap">
+              <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+                </div>
+              </div>
+            </div>
+            </a> </div>
+          
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/store/4.jpg">
+            <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/store/4b.jpg" alt="" /> </div>
+            <div class="cbp-caption-activeWrap">
+              <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+                </div>
+              </div>
+            </div>
+            </a> </div>
+          
+          <div class="cbp-item"> <a class="cbp-caption fancybox-media" data-rel="portfolio" href="/c/img/mdn/store/5.jpg">
+            <div class="cbp-caption-defaultWrap"> <img src="/c/img/mdn/store/5b.jpg" alt="" /> </div>
+            <div class="cbp-caption-activeWrap">
+              <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                  <div class="cbp-l-caption-title"><span class="cbp-plus"></span></div>
+                </div>
+              </div>
+            </div>
+            </a> </div>
+      
         </div>
         
       </div>

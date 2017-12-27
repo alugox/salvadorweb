@@ -48,7 +48,7 @@
       <div class="row">
         <!--/column -->
         <div class="col-md-offset-5">
-          <div class="text-center"><img src="../c/img/logos/nails-logo.png"></div><br>
+          <div class="text-center"><img src="/c/img/logos/nails-logo.png"></div><br>
           <p class="par-concepto text-black">Es nuestro más novedoso concepto, donde la calidad y el profesionalismo de su capital humano se fusionan con nuestro excelente servicio para lograr la satisfacción de nuestros clientes.<br><br>Se ofrecen servicios integrales para el cuidado de manos y pies, dirigido al público en general, desde el manicure tradicional hasta el manicure y pedicura más detallado de acabado profesional, masajes relajantes, exfoliantes, hidratantes, servicio de Pedi Spa, limpieza, esculpido y pulido de uñas, además de diseños y colores de esmaltes, texturas, aplicaciones y diferentes materiales.</p>
         </div>
         <!--/column -->

@@ -49,7 +49,7 @@
       <div class="row">
         <!--/column -->
         <div class="col-md-offset-5">
-          <div class="text-center"><img src="../c/img/logos/instituto-logo.png"></div><br>
+          <div class="text-center"><img src="/c/img/logos/instituto-logo.png"></div><br>
           <p class="par-concepto text-black">Es la esencia de Salvador y nuestro modelo de negocio  original, en cuyas instalaciones, se brinda un servicio integral de estética, garantizándole a toda la familia una atmósfera de calidad, cordialidad y confort. En los Institutos de Belleza se encontrará  servicios de estética facial, estética corporal, servicios integrales de peluquería y todos los servicios relacionados con manos y pies.</p><br>
         </div>
         <!--/column -->

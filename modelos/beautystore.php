@@ -47,7 +47,7 @@
       <div class="row">
         <!--/column -->
         <div class="col-md-offset-5">
-          <div class="text-center"><img src="../c/img/logos/beauty-logo.png"></div><br>
+          <div class="text-center"><img src="/c/img/logos/beauty-logo.png"></div><br>
           <p class="par-concepto" style="color: #000;">Somos una tienda de Belleza Integral, dedicados a la mujer, ofreciendo (productor profesionales para el cuidado y mantenimiento del cabello, manicure y pedicure, cosméticos, y artículos de cuidado personal avalados por reconocidas marcas.<br><br>Los profesionales del estilismo encuentran los artículos más novedosos del mercado, tintes para el cabello, accesorios, maquillajes, cepillos, tratamientos capilares, unidosis para todo tipo de cabello, además del asesoramiento de expertos en belleza.</p>
         </div>
       </div>

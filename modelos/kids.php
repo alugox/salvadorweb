@@ -50,7 +50,7 @@
       <div class="row">
         <!--/column -->
         <div class="col-md-offset-5">
-          <div class="text-center"><img src="../c/img/logos/kids-logo.png"></div><br>
+          <div class="text-center"><img src="/c/img/logos/kids-logo.png"></div><br>
           <p class="par-concepto text-black">Es un concepto de peluquería infantil lleno de imaginación, divertido y colorido, diseñado para crear el estilo de los niños, mientras juegan y disfrutan en sus instalaciones.<br><br>Garantizamos a los padres la tranquilidad de poner a sus hijos en manos de profesionales, donde la seguridad e higiene son tan importantes como la diversión. En Salvador KIDS, también podrás organizar fiestas infantiles o días de spa para los más pequeños de la casa.</p>
         </div>
         <!--/column -->
