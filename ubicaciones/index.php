@@ -25,35 +25,24 @@
         <div class="title-ubicacion text-center">
           <h1>Ubica un Salón Salvador</h1>
         </div>
-
-        <div class="col-md-12 paises-section">
-          <div class="buscar-salon">
-            <h2 class="fondobuscar">Encuentra un salón.</h2>
-              <div class="widget">
-              <form class="searchform searchbarp" method="get">
-                <input class="buscadorsl" type="text" id="autocomplete" name="s" placeholder="Buscar un salón Salvador">
-                <button type="submit" class="botonbuscador btn btn-default" style="height: 60px!important; padding-left: 30px!important; padding-right: 30px!important;">Buscar</button>
-                <div id="selection">
-                  <br><div id="slide-portfolio" class="image-grid">
-                    <div class="items-wrapper">
-                      <ul class="isotope items">
-                        <li class="item col-md-6 col-sm-6 marginbt10">
-                          <figure class="icon-overlay"><img src="/c/img/salons/13.jpg" alt="" /></figure>
-                          <div class="slide-portfolio-item-info box">
-                            <h4 class="post-title">NOMBRE DE SALON</h4>
-                            <div class="meta marginbt0">REGION</div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <input type="hidden" name="salonbuscar">
-              </form>
+        <div class="row">
+          <div class="paises-section">
+            <div class="buscar-salon">
+              <h2 class="fondobuscar">Encuentra un salón.</h2>
+                <div class="widget">
+                <form class="searchform searchbarp" method="get">
+                  <input class="buscadorsl" type="text" id="autocomplete" name="s" placeholder="Buscar un salón Salvador">
+                  <button type="submit" class="botonbuscador btn btn-default" style="height: 60px!important; padding-left: 30px!important; padding-right: 30px!important;">Buscar</button>
+                  <span id="selection"></span>
+                  <input type="hidden" name="salonbuscar">
+                </form>
+              </div>
             </div>
           </div>
+        </div>
+        <div class="row">
           <div id="ubi1">
-            <h2 class="fondobuscar">Lista de salones por país. <i class="budicon-search-3"></i></h2>
+            <h2 class="fondobuscar">Lista de salones por país.</h2> <!-- <i class="budicon-search-3"></i>-->
             <div class="col-md-12 lista-salon">
               <div class="col-md-6">
                   <h3><a href="#modal-ubi" data-toggle="modal"><i class="budicon-pin"></i> Venezuela</a></h3>
@@ -70,6 +59,7 @@
               <!--/column -->
             </div>
           </div>
+        </div>
 
           <div class="col-sm-12">
           <h3>Google Map</h3>
@@ -114,10 +104,7 @@
           }
           </script> 
         </div>
-
         </div>
-
-      </div>
 
       <!-- Publicidad -->
       <div class="col-md-3 col-md-offset-1 text-center publicidad">

@@ -137,6 +137,36 @@ function conceptosbar($ubi){
     return;
 }
 
+function showUbiDet($idsa, $paso){
+  if($paso == "1"){
+    $sql = "SELECT nombrecompleto, concepto, direccion, telefono1, telefono2, latitud, longitud, regionsalon, instagram, url_img, url_img_thumb FROM web_salones WHERE id = '".$idsa."' LIMIT 1;";
+    $result = (array) json_decode(miBusquedaSQL($sql), true);
+    foreach ($result as $r) {
+      $salon = '<br><br><div id="slide-portfolio" class="image-grid">
+                    <div class="items-wrapper">
+                      <ul class="isotope items">
+                        <li class="item col-md-6 col-sm-6 marginbt10">
+                          <figure class="icon-overlay"><img src="/c/img/salons/'.$r["url_img_thumb"].'" alt="" /></figure>
+                          <div class="slide-portfolio-item-info box">
+                            <h4 class="post-title">'.$r["nombrecompleto"].'</h4>
+                            <div class="meta marginbt0">'.cambiarRegion($r["regionsalon"]).'</div>
+                            <div class="meta marginbt0"><b>Teléfono:</b> '.$r["telefono1"].' / '.$r["telefono2"].'</div>
+                            <div class="meta marginbt0"><b>Dirección:</b> '.$r["direccion"].'</div>
+                            <a href="//www.instagram.com/'.$r["instagram"].'" target="_blank"><i class="fab fa-instagram"></i> @'.$r["instagram"].'</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>';
+    }
+    $final = $salon;
+  } else {
+    $final = "No hay Resultados";
+  }
+  return $final;
+}
+
+
 function miBusquedaSQL($sql){
 
     $dbh = conex();
@@ -184,6 +214,5 @@ function miActionSQL($sql){
     mysqli_close($dbh);
     return $resultado;
 }
-
 
 ?>

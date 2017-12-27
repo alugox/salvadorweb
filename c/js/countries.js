@@ -269,7 +269,7 @@
 var venezuela = {
     "S01": "Ciudad Chinita",
     "S02": "Delicias Norte",
-    "S03": "Galerías Mall",
+    "S03": "Galerias Mall",
     "S04": "La Limpia",
     "S05": "Lago Mall - Nivel Feria",
     "S06": "Lago Mall - Nivel 1",

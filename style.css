@@ -303,8 +303,8 @@ h4.post-title {
     padding-bottom: 70px;
 }
 footer .inner {
-    padding-top: 60px;
-    padding-bottom: 50px;
+    /* padding-top: 60px; */
+    /* padding-bottom: 50px; */
 }
 .meta,
 .meta a,

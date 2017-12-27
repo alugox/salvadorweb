@@ -8,7 +8,7 @@ $(function () {
     var countriesArray = $.map(countries, function (value, key) { return { value: value, data: key }; });
 
     // Setup jQuery ajax mock:
-    $.mockjax({
+    /*$.mockjax({
         url: '*',
         responseTime: 2000,
         response: function (settings) {
@@ -26,7 +26,7 @@ $(function () {
 
             this.responseText = JSON.stringify(response);
         }
-    });
+    });*/
 
     // Initialize ajax autocomplete:
     $('#autocomplete-ajax').autocomplete({
@@ -90,7 +90,15 @@ $(function () {
 });
 
 function mostrarSalonDet($idsalon){
-    $('#selection').html('Id de Salón: ' + $idsalon);
-
+    //$('#selection').html('Id de Salón: ' + $idsalon);
+    $('#selection').html("<br><br><img src='/c/img/loading.gif' width='32px' height='32px'>");
+        $.ajax({
+            method : "POST",
+            url: '/c/api.php',
+            data:{action:'showSD', data: $idsalon, paso: '1'},
+            success:function(html) {
+                $('#selection').html(html);
+            }
+        });
     
 }
