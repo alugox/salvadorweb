@@ -9,13 +9,23 @@ info@eqs.com.ve
 //---------------------------------------------------------------------------------------------------------------------------------------------------
 // AGREGANDO FUNCIONES DEL FRAMEWORK NECESARIAS
 //---------------------------------------------------------------------------------------------------------------------------------------------------
-include($_SERVER['DOCUMENT_ROOT']."/legacy/iweb/config/config.php");
+include($_SERVER['DOCUMENT_ROOT']."/iweb/config/config.php");
 include($_SESSION["EQ_frwkURL"]."config/funciones.php");
 
 if (!isset($_SESSION['EQ_moneda'])) $_SESSION['EQ_moneda']=getmoneda();
 if (!isset($_SESSION['EQ_impuesto'])) $_SESSION['EQ_impuesto']=getiva();
 
-
+/* GENERA UNA MATRIZ CON LOS VALORES DE UN SELECT QUERY
+   Los elementos de la matriz utilizan el nombre de los campos en la tabla a consultar. La funcion devuelve una matriz.
+   P.Ej. Los datos de la tabla usuario(id,nombre,clave) se leen: matriz['id'], matriz['nombre'], matriz['clave']
+   Parametros: $db = nombre de la tabla
+               $fd = campo(s) a consultar (por defecto *)
+               $cnd= condicion de la consulta
+               $ord= orden 
+   Ejemplo: <?php
+            $atabla=sitio_data("inventario","id,nombre");
+            foreach($atabla as $acampo){ echo "Producto: ".encode($acampo["nombre"])."<br/>";} ?>
+*/
 function sitio_data($db="",$fd="*",$cnd="",$ord=""){
    if ($db=="") return false;
    $aretorno=array();

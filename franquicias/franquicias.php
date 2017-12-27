@@ -445,7 +445,7 @@ error_reporting(1);
 <div id="AVA_CONTENEDOR_PRINCIPAL">
 		<div id="home_cont_keep_out"  class="border-header-center" style=" clear:both;width:997px; min-height:540px; height:auto; overflow:auto; margin: 0 auto; background-color:#fff;">
 		<form action="<?=$_SERVER['PHP_SELF'];?>" name="form1" method="post">
-			<div id="grey_box" style="width:877px;height:181px;margin:auto;"><img src="images/franchises.jpg" width="877" height="181" /></div>
+			<div id="grey_box" style="width:877px;height:181px;margin:auto;"><img src="/legacy/images/franchises.jpg" width="877" height="181" /></div>
 			
 			<div class="contenedor">
 				<div style="margin-top:2px; width:100%;margin-botton:10px;float:left; ">

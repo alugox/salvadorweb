@@ -1,6 +1,6 @@
-<?
+<?php
 	include("header.html");
-	include("../legacy/iweb/sitio/funciones.php");
+	//include("../legacy/iweb/sitio/funciones.php");
 	//print_r($_POST);
 	if($_POST){
 		$f=$_REQUEST['f'];

@@ -24,8 +24,8 @@
     <div class="tp-fullscreen">
       <ul>
         <li data-transition="fade"> <img src="style/video/nyc.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
-          <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;"><img src="c/img/60-a-min.png"></div>
-          <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2; font-style: italic;">Pasión por la belleza</div>
+          <!--<div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;"><img src="c/img/60-a-min.png"></div>
+          <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2; font-style: italic;">Pasión por la belleza</div>-->
           <div class="tp-caption tp-fade fadeout fullscreenvideo"
       data-x="0"
       data-y="0"
@@ -43,7 +43,7 @@
         data-volume="mute" data-forceCover="1" data-aspectratio="16:9" data-forcerewind="on" style="z-index: 1;">
             <video class="" preload="none" width="100%" height="100%" 
 poster='style/video/nyc.jpg' loop>
-              <source src='style/video/nyc.mp4' type='video/mp4' />
+              <source src='style/video/salva3.mp4' type='video/mp4' />
               <source src='style/video/nyc.webm' type='video/webm' />
             </video>
           </div>
